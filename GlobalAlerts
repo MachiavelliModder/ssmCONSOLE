@@ -2,7 +2,7 @@ GA = {
 
 	_spec = {
 		IDENTIFIER = "{Global Warning}";
-		[1] = {
+		[2] = {
 			timer = 0;
 			text = "Don't use Print() or Warn() in your code, as it can trigger exploit detection through unknown means. We are working on a patch for this issue.";
 			color = "light_red";
@@ -11,7 +11,7 @@ GA = {
 
 	_norm = {
 		IDENTIFIER = "{Default Global Announcement}";
-		[1] = {
+		[2] = {
 			timer = 3;
 			text = "ssm_CONSOLE isnt released to the public, so as a Tester don't leak any copy without granted permission.";
 			color = "yellow";
