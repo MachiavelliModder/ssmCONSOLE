@@ -1,7 +1,7 @@
 GA = {
 
 	_spec = {
-		IDENTIFIER = "{Global Warning}"
+		IDENTIFIER = "{Global Warning}";
 		[1] = {
 			timer = 0;
 			text = "Don't use Print() or Warn() in your code, as it can trigger exploit detection through unknown means. We are working on a patch for this issue.";
