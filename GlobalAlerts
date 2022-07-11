@@ -1,4 +1,4 @@
-GA = {
+_G.GA = {
 
 	_spec = {
 		IDENTIFIER = "{Global Warning}";
