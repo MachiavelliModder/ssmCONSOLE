@@ -74,6 +74,6 @@ local cor = coroutine.create(function()
     local Line1 = Drawing.new("Text") Line1.Outline = true Line1.OutlineColor = Color3.fromRGB(0,0,0) Line1.Color = Color3.fromRGB(255,255,255) Line1.Text = "FPS" Line1.Center = true Line1.Visible = true Line1.Position = Vector2.new(1165,0) Line1.Size = 15 Line1.Transparency = 1 Line1.ZIndex = 1 Line1.Font = 2
     local Stats = game:GetService("Stats") local stat = 0
     local Line2 = Drawing.new("Text") Line2.Outline = true Line2.OutlineColor = Color3.fromRGB(0,0,0) Line2.Color = Color3.fromRGB(255,255,255) Line2.Text = tostring(stat) Line2.Center = true Line2.Visible = true Line2.Position = Vector2.new(1165,15) Line2.Size = 15 Line2.Transparency = 1 Line2.ZIndex = 1 Line2.Font = 2
-    while wait(1) do if _G.DeleteMemoryText == true then Line1:Remove() Line2:Remove() break end   stat = Stats.Workspace.FPS:GetValue()   Line2.Text = tostring(string.format("%.2f",stat)) if stat > 50 then Line2.Color = Color3.fromRGB(255,255,255) elseif stat < 50 and stat < 20 then Line2.Color = Color3.fromRGB(255,255,0) elseif stat < 10 then Line2.Color = Color3.fromRGB(255,0,0) end end
+    while wait(1) do if _G.DeleteMemoryText == true then Line1:Remove() Line2:Remove() break end   stat = Stats.Workspace.FPS:GetValue()   Line2.Text = tostring(string.format("%.2f",stat)) if stat > 50 then Line2.Color = Color3.fromRGB(255,255,255) elseif stat < 50 and stat > 20 then Line2.Color = Color3.fromRGB(255,255,0) elseif stat < 10 then Line2.Color = Color3.fromRGB(255,0,0) end end
 end)
 coroutine.resume(cor)
