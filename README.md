@@ -27,8 +27,24 @@ This tool offers a wide variety of features, this includes:
 
 ## Commands
 
-This list wont include every single command, rather a list of things some commands will do or be able to do.
+***This list wont include every single command***, rather a list of things *some* commands will do or be able to do.
 
 ### "Fun" Commands
   - Fun Commands are labeled as "Fun" because most are either bizzare or outright game ruining for your client.
-    - aba
+    - SetLag -- This does literally what its name implys, It sets your CPU on fire if its too high.
+    - SetPing -- This does not actually set your ping, Rather it sets incomingreplicationlag.
+    - Ghost -- This will ghost another player, turning them transparent and also making it so they cant interact with you.
+    - FindPlayerPath -- This will draw a line from you to the path you need to take to get to the player, Can be laggy if path is complex.
+    - PlaceRoulette -- This is what you think it is, The range of games can be adjusted.
+ 
+Ghost is mainly used for people who try to fling you, If they try to fling you just run that command on them and they cant hurt you as long as they're transparent.
+
+FindPlayerPath will ignore doors and attempt to find the shortest path possible to the player.
+
+SetLag is fun to use only if you have been playing with high FPS a lot.
+
+PlaceRoulette is the special gem you need if the game you're in gets too cringe for your liking, or you're just too lazy to press the red X or literally any other method of joining a new game.
+
+
+### General Commands
+  - General Commands are Commands either made exactly for ssmCONSOLE, or just technical stuff.
