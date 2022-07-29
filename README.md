@@ -1,17 +1,21 @@
 # ssmCONSOLE
 
+## This is a detailed explanation on some of the stuff ssmCONSOLE does and what ssmCONSOLE is.
 
 ### Hello! This is ssm_CONSOLE, This is used as an external tool for Troubleshooting, Developing, ~~Fun~~, ect.
-### Whilst this tool is mainly used for Developing and Troubleshooting, It can also be used for Fun? Malicious use ***isn't encouraged*** but action wont be taken against anyone who uses it due to the nature of the tool. 
+### Whilst this tool is mainly used for Developing and Troubleshooting, It can also be used for Fun.
 
 If you wish to recieve a Access Token for this (still in development) tool, DM bruhMach#0453 on discord for a valid key. All code used by this is either specially encrypted only for the tools use, or obfuscated to hide code away so nothing can be stolen.
 
+
+### *!!WE'RE NOT HELD ACCOUNTABLE IF YOU ARE BANNED FOR USING THIS!!*
+> While this isn't exactly supposed to be used in malicious intent, It's still possible to do so. With that being said, any Administrative action taken against you as a result from using this, is in no way shape or form our responsibility.
 
 ## Features
 
 This tool offers a wide variety of features, this includes:
 
-`• External UI, Similar to Windows Command Prompt (Not a Instance within the game)`
+`• External UI, Similar to Windows Command Prompt`
 
 `• Ability to detect most Anti-Cheats`
 
@@ -20,6 +24,8 @@ This tool offers a wide variety of features, this includes:
 `• Ability to detect VIP+ Members for most Games`
 
 `• Ability to detect past Players from saved Server Data`
+
+`• Ability to load accurate Performance Data, and Packet Data`
 
 `• Autoexecuting code to "Fix" game Developers' Anti-Cheats`
 
@@ -48,3 +54,12 @@ PlaceRoulette is the special gem you need if the game you're in gets too cringe 
 
 ### General Commands
   - General Commands are Commands either made exactly for ssmCONSOLE, or just technical stuff.
+    - JoinInstance -- This command can be used to join a game using a JobID and/or a PlaceID.
+    - ShowArgs -- This command shows arguments for commands that require one or more arguments.
+    - Execute -- This command will execute provided code, and will return any error it has.
+
+JoinInstance can be useful for either checking if a server you joined a while ago is still up, or just rejoining the same server after you left even when nobody you are friends with is in the server. If you use JoinInstance without a JobID it will just join you into a random server for that game, as long as you have provided a correct PlaceID.
+
+ShowArgs will give a more detailed explanation of what a command with more than one argument will do, and also elaborate on how you can correctly use the command.
+
+Execute will do what its description does, it will return any error back to the console and tell you the exact error message. The limits of this are that the code can not exceed one line. Useful for mainly loadstrings, or checking if a Variable, Function, or just setting _G's. will work.
