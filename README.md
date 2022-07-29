@@ -63,3 +63,7 @@ JoinInstance can be useful for either checking if a server you joined a while ag
 ShowArgs will give a more detailed explanation of what a command with more than one argument will do, and also elaborate on how you can correctly use the command.
 
 Execute will do what its description does, it will return any error back to the console and tell you the exact error message. The limits of this are that the code can not exceed one line. Useful for mainly loadstrings, or checking if a Variable, Function, or just setting _G's. will work.
+
+
+  
+  <sup> ~~ bruhMach#0453 </sup>
