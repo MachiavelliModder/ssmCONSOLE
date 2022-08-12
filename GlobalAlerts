@@ -4,7 +4,7 @@ _G.GA = {
 		IDENTIFIER = "{GW}";
 		[2] = {
 			timer = 0;
-			text = "Don't use Print() or Warn() in your code, as it can trigger exploit detection through unknown means. We are working on a patch for this issue.";
+			text = "ssmCONSOLE is currently undergoing extremely unstable behavior for unknown reasons. Don't try to reinstall or uninstall, as it will break the console.";
 			color = "light_red";
 		};
 	};
