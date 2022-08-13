@@ -4,7 +4,7 @@ _G.GA = {
 		IDENTIFIER = "{GW}";
 		[2] = {
 			timer = 0;
-			text = "ssmCONSOLE is currently undergoing extremely unstable behavior for unknown reasons. Don't try to reinstall or uninstall, as it will break the console.";
+			text = "Sometimes our admin detectors fail, it happens! Keep your guard up.";
 			color = "light_red";
 		};
 	};
