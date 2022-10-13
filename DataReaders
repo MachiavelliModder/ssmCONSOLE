@@ -82,7 +82,7 @@ end)
 coroutine.resume(cor)
 
 local cor = coroutine.create(function()
-    local Line1 = Drawing.new("Text") Line1.Outline = true Line1.OutlineColor = Color3.fromRGB(0,0,0) Line1.Color = Color3.fromRGB(255,137,0) Line1.Text = "HIGH POWER USAGE" Line1.Center = true Line1.Visible = true Line1.Position = Vector2.new(1080,70) Line1.Size = 15 Line1.Transparency = 1 Line1.ZIndex = 1 Line1.Font = 2
+    local Line1 = Drawing.new("Text") Line1.Outline = true Line1.OutlineColor = Color3.fromRGB(0,0,0) Line1.Color = Color3.fromRGB(255,137,0) Line1.Text = "HIGH POWER USAGE" Line1.Center = true Line1.Visible = true Line1.Position = Vector2.new(1080,35) Line1.Size = 15 Line1.Transparency = 1 Line1.ZIndex = 1 Line1.Font = 2
     while wait(.3) do if getgenv().DeleteMemoryText == true then Line1:Remove() break end if gpu + cpu >= 50 then Line1.Transparency = 1 else Line1.Transparency = 0 end end
 end)
 coroutine.resume(cor)
