@@ -1,4 +1,4 @@
-_G.GA = {
+getgenv().GA = {
 
 	_spec = {
 		IDENTIFIER = "{GW}";
